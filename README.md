@@ -64,7 +64,9 @@ make px4_sitl_nnbs gazebo  			# for default world with no wind or
 make px4_sitl_nnbs gazebo___windy   # for windy world.
 ```
 
-The parameters of the wind plugin (e.g. wind velocity) can be set in `px4/Tools/sitl_gazebo/worlds/windy.world`.
+The parameters of the wind plugin (e.g. wind velocity) can be set in `px4/Tools/sitl_gazebo/worlds/windy.world`. 
+
+Modify `px4/ROMFS/px4fmu_common/init.d/rc.mc_apps`  to determine which position controller to use. 
 
 * Launch offboard control. 
 
