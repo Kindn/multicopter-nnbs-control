@@ -44,7 +44,7 @@ catkin build offboard_control
 catkin build px4 # Not necessary.
 ```
 
-## Run SITL simulation & offboard control
+### Run SITL simulation & offboard control
 
 * Launch mavros. 
 
@@ -82,7 +82,7 @@ The polynomial node starts to record the data as soon as the vehicle starts to t
 
 The hovering node starts to record the data as soon as the distance between the feed-back position and the target position is less than a threshold (0.2m),  and the recording operation will last  `recording_time` second(s). 
 
-## Analyze the result
+### Analyze the result
 
 The python script `data_analyzer.py` is used to visualize the result and compute the RMSE. 
 
