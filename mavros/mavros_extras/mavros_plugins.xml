@@ -84,11 +84,7 @@
   <class name="mag_calibration_status" type="mavros::std_plugins::MagCalStatusPlugin" base_class_type="mavros::plugin::PluginBase">
     <description>Send calibration status to ROS.</description>
   </class>
-  <class name="arm_rotation" type="mavros::extra_plugins::ArmRotationPlugin" base_class_type="mavros::plugin::PluginBase">
-		<description>Handle airframe arm rotation data of omni_am vehicle.</description>
-	</class>
   <class name="keyboard_command" type="mavros::extra_plugins::KeyboardCommandPlugin" base_class_type="mavros::plugin::PluginBase">
      <description>Accepts keyboard command.</description>
   </class>
-
 </library>

@@ -87,7 +87,4 @@
   <class name="wind_estimation" type="mavros::std_plugins::WindEstimationPlugin" base_class_type="mavros::plugin::PluginBase">
     <description>Publish wind estimates</description>
   </class>
-  <class name="roll_pitch_control" type="mavros::std_plugins::RollPitchControlPlugin" base_class_type="mavros::plugin::PluginBase">
-    <description>Control omnidirectional MAV's roll and pitch.</description>
-  </class>
 </library>

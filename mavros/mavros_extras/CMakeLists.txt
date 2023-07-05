@@ -65,7 +65,6 @@ include_directories(
 )
 
 add_library(mavros_extras
-  src/plugins/arm_rotation.cpp
   src/plugins/adsb.cpp
   src/plugins/cam_imu_sync.cpp
   src/plugins/companion_process_status.cpp

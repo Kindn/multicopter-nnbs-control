@@ -1,0 +1,14 @@
+<launch>
+    <arg name="output_fpath" default="/home/lpy/data_hover.txt" />
+    <arg name="recording_time" default="20" />
+    <arg name="position_target_x" default="0" />
+    <arg name="position_target_y" default="0" />
+    <arg name="position_target_z" default="2" />
+    <node pkg="offboard_control" name="offboard_hover" type="offboard_hover" output="screen">
+        <param name="output_fpath" value="$(arg output_fpath)" />
+        <param name="recording_time" value="$(arg recording_time)" />
+        <param name="position_target_x" value="$(arg position_target_x)" />
+        <param name="position_target_y" value="$(arg position_target_y)" />
+        <param name="position_target_z" value="$(arg position_target_z)" />
+    </node>
+</launch>

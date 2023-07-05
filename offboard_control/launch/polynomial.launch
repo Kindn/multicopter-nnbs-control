@@ -1,0 +1,6 @@
+<launch>
+    <arg name="output_fpath" default="/home/lpy/data.txt" />
+    <node pkg="ekf_state_estimator" name="offboard_polynomial" type="offboard_polynomial" output="screen">
+        <param name="output_fpath" value="$(arg output_fpath)" />
+    </node>
+</launch>

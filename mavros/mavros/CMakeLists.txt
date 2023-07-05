@@ -148,7 +148,6 @@ add_library(mavros_plugins
   src/plugins/vfr_hud.cpp
   src/plugins/waypoint.cpp
   src/plugins/wind_estimation.cpp
-  src/plugins/roll_pitch_control.cpp
 )
 add_dependencies(mavros_plugins
   mavros

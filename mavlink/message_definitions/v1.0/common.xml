@@ -5757,11 +5757,6 @@
       <field type="float" name="throttle_out" units="%">Output throttle</field>
       <field type="float" name="pt_compensation">Pressure/temperature compensation</field>
     </message>
-    <message id="228" name="OMNI_AM_ROLL_PITCH_SETPOINTS">
-            <description>roll and pitch setpoints</description>
-            <field type="float" name="roll_sp" units="rad">roll setpoint, in rad</field>
-            <field type="float" name="pitch_sp" units="rad">pitch setpoint, in rad</field>
-    </message>
     <message id="229" name="KEY_COMMAND">
      <description>Keyboard char command.</description>
      <field type="char" name="command"> </field>
