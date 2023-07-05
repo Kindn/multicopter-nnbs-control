@@ -1,0 +1,4 @@
+[submodule "px4"]
+	path = px4
+	url = https://github.com/Kindn/PX4-Autopilot.git
+	branch = release/1.12

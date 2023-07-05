@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<mavlink>
+
+    <include>common.xml</include>
+    <dialect>3</dialect>
+
+    <messages>
+        <message id="12000" name="ARM_ROTATION">
+            <description>positions and angular velocitu of six arms of a hexacopter</description>
+            <field type="uint64_t" name="timestamp" units="ms">Timestamp in milliseconds since system boot</field>
+            <field type="float" name="pos1" units="rad">pos of ariframe arm1, in rad</field>
+            <field type="float" name="pos2" units="rad">pos of ariframe arm2, in rad</field>
+            <field type="float" name="pos3" units="rad">pos of ariframe arm3, in rad</field>
+            <field type="float" name="pos4" units="rad">pos of ariframe arm4, in rad</field>
+            <field type="float" name="pos5" units="rad">pos of ariframe arm5, in rad</field>
+            <field type="float" name="pos6" units="rad">pos of ariframe arm6, in rad</field>
+            <field type="float" name="vel1" units="rad/s">angular velocity of arm1, in rad/s</field>
+            <field type="float" name="vel2" units="rad/s">angular velocity of arm2, in rad/s</field>
+            <field type="float" name="vel3" units="rad/s">angular velocity of arm3, in rad/s</field>
+            <field type="float" name="vel4" units="rad/s">angular velocity of arm4, in rad/s</field>
+            <field type="float" name="vel5" units="rad/s">angular velocity of arm5, in rad/s</field>
+            <field type="float" name="vel6" units="rad/s">angular velocity of arm6, in rad/s</field>
+        </message>
+
+        <message id="227" name="ROLL_PITCH_SETPOINTS">
+            <description>roll and pitch setpoints</description>
+            <field type="float" name="roll_sp" units="rad">roll setpoint, in rad</field>
+            <field type="float" name="pitch_sp" units="rad">pitch setpoint, in rad</field>
+        </message>
+    </messages>
+
+    
+</mavlink>
